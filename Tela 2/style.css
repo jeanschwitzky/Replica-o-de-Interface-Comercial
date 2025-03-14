@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+main {
+    padding: 1rem;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.conteudo1 {
+    justify-content: left;
+    margin: 0;
+    padding: 1rem;
+    background-color: #bacfee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 1200px;
+}
+
+.conteudo2 {
+    justify-content: left;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #bacfee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 700px;
+}
+
+.conteudo2 .texto {
+    font-size: small;
+    color: blue;
+}
+
+.conteudo2 img {
+    padding: 0;
+    width: 50px;
+}
+
+.conteudo2 .flexivel {
+    gap: 5rem;
+}
+
+.conteudo1 .texto {
+    font-size: small;
+    color: blue;
+}
+
+.conteudo1 img {
+    padding: 0;
+    width: 50px;
+}
+
+.conteudo1 .flexivel {
+    gap: 1rem;
+}
+
+.tabela {
+    font-size: small;
+    color: blue;
+}
+
+.tabela .flexivel {
+    gap: 10rem;
+}
+
+.caixa {
+    justify-content: left;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 670px;
+    color: black;
+    gap: 9rem;
+}
+
+.flex {
+    display: flex;
+    gap: 9rem;
+}
+
+.caixa1 {
+    justify-content: left;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 670px;
+    color: black;
+    gap: 9rem;
+   
+}
+
+.caixa1 button {
+    background-color: orange;
+}
+
+.caixa2 button {
+    background-color: red;
+}
+
+.caixa2 {
+    justify-content: left;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 670px;
+    color: black;
+    gap: 9rem;
+}
+
+.flexivel {
+    display: flex;
+    gap: 2rem;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    max-width: 175px;
+    border-radius: 5px;
+    background-color: white;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.carousel img {
+    width: 100%;
+    transition: ease-in-out;
+    transform: 0.5s;
+    border-radius: 5px;
+    background-color: white;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imagem img {
+    width: 150px;
+    object-fit: contain;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 2rem;
+    width: 5.5rem;
+    border-radius: 0.5rem;
+    font-size: medium;
+}
+
+.icones {
+
+    display: inline-block;
+    width: 800px;
+    font-size: 30px;
+    color:black;
+
+
+}
+
+.product-icon {
+    background-color: #bacfee;
+    border-radius: 20rem;
+
+}
+.block{
+    display: block;
+    width: 15rem;
+}
+
+.tabela .flexivel  {
+    gap: 10rem;
+}
+
+.texto_inicial {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    
+}
+
+.mensagens {
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #bacfee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 700px;
+}
+
+.mensagens .texto {
+    font-size: small;
+    color: blue;
+}
+
+
+.mensagens img {
+    padding: 0;
+    width: 50px;
+}
+
+.mensagens .flexivel {
+    gap: 0rem;
+}
+
+.mensagens .flex {
+    gap: 1rem;
+}
+
+.infos {
+    display: flex;
+    gap: 3rem;
+    background-color: fuchsia;
+}
+
+.text {
+    background-color: red;
+    width: 100px;
+}
