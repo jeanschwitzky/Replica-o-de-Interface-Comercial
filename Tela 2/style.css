@@ -8,6 +8,7 @@
 body {
     line-height: 1.6;
     background-color: #f4f4f4;
+    
 }
 
 main {
@@ -17,37 +18,39 @@ main {
 }
 
 .conteudo1 {
-    justify-content: left;
     margin: 0;
     padding: 1rem;
     background-color: #bacfee;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 1200px;
+    width: 70vw;
+    height: 31vh;
 }
 
 .conteudo2 {
-    justify-content: left;
     margin: 0;
     padding: 0.5rem;
     background-color: #bacfee;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 700px;
+    width: 27vw;
+    height: 31vh;
 }
 
-.conteudo2 .texto {
-    font-size: small;
+.texto h1{
     color: blue;
+    font-size: medium;
+}
+
+.texto h2{
+    color: blue;
+    font-size: medium;
 }
 
 .conteudo2 img {
     padding: 0;
-    width: 50px;
-}
-
-.conteudo2 .flexivel {
-    gap: 5rem;
+    width: 40px;
+    height: 40px;
 }
 
 .conteudo1 .texto {
@@ -56,76 +59,81 @@ main {
 }
 
 .conteudo1 img {
-    padding: 0;
+    padding: 0px;
     width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
-.conteudo1 .flexivel {
-    gap: 1rem;
-}
 
 .tabela {
     font-size: small;
     color: blue;
+    
 }
 
-.tabela .flexivel {
-    gap: 10rem;
+.caixa1tabela{
+    background-color: blue;
+    border-radius: 50px;
+    color:white;
+    text-align: center;
+    font-size: small;
+    
 }
 
 .caixa {
-    justify-content: left;
     margin: 0;
     padding: 0.5rem;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 670px;
+    width: 26vw;
+    height: 5vh;
     color: black;
-    gap: 9rem;
-}
-
-.flex {
-    display: flex;
-    gap: 9rem;
 }
 
 .caixa1 {
-    justify-content: left;
     margin: 0;
     padding: 0.5rem;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 670px;
-    color: black;
-    gap: 9rem;
-   
+    width: 26vw;
+    height: 5vh;
+    color: black;  
 }
 
 .caixa1 button {
     background-color: orange;
+    border-color: orange;
 }
 
 .caixa2 button {
     background-color: red;
+    border-color:red
+}
+
+.caixa button {
+    background-color: green;
+    border: green;
 }
 
 .caixa2 {
-    justify-content: left;
     margin: 0;
     padding: 0.5rem;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 670px;
+    width: 26vw;
+    height: 5vh;
     color: black;
-    gap: 9rem;
 }
 
 .flexivel {
     display: flex;
-    gap: 2rem;
+    gap: 1vw;
+    margin-bottom: 2vh;
+    font-size: small;
 }
 
 .carousel {
@@ -136,7 +144,10 @@ main {
     background-color: white;
     border: 4px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    
+    height: 180px;
+    object-fit: center;
+    object-fit: contain;
+    text-overflow: clip;    
 
 }
 
@@ -145,13 +156,21 @@ main {
     transition: ease-in-out;
     transform: 0.5s;
     border-radius: 5px;
-    background-color: white;
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgba(252, 252, 252, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    object-fit: center;
+    height: 100%
+}
+
+.imagem {
+    width: 100%;
+    max-width: 100px;
+    margin-left: 30px;
 }
 
 .imagem img {
-    width: 150px;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -159,10 +178,10 @@ button {
     background-color: green;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    height: 2rem;
-    width: 5.5rem;
+    height: 3vh;
+    width: 4vw;
     border-radius: 0.5rem;
-    font-size: medium;
+    font-size: small;
 }
 
 .icones {
@@ -172,7 +191,15 @@ button {
     font-size: 30px;
     color:black;
 
+}
 
+.icones1 {
+    color: blue;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 20rem;
+   
+    
 }
 
 .product-icon {
@@ -183,10 +210,6 @@ button {
 .block{
     display: block;
     width: 15rem;
-}
-
-.tabela .flexivel  {
-    gap: 10rem;
 }
 
 .texto_inicial {
@@ -201,14 +224,14 @@ button {
     background-color: #bacfee;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 700px;
+    width: 27vw;
+    height: 31vh;
 }
 
 .mensagens .texto {
     font-size: small;
     color: blue;
 }
-
 
 .mensagens img {
     padding: 0;
@@ -225,11 +248,29 @@ button {
 
 .infos {
     display: flex;
-    gap: 3rem;
-    background-color: fuchsia;
+    gap: 4rem;
 }
 
 .text {
-    background-color: red;
     width: 100px;
+}
+
+.caixa3 {
+    margin: 0;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 68vw;
+    height: 8vh;
+    color: black;
+}
+
+.transacoes {
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #bacfee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 700px;
 }
